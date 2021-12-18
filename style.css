@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.main-header .containar .navbar {
+    background-color: #2A2A2A;
+    padding: 10px;
+}
+
+.main-header .containar .navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.main-header .containar .navbar li a {
+    color: #fff;
+    padding: 0 30px;
+    bottom: 0;
+    transition: .5s;
+
+}
+
+.main-header .containar .navbar li a:hover {
+    color: yellow;
+
+}
+
+.main-header .containar .navbar .image1 img {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.main-header .containar .navbar .image2 img {
+    width: 50%;
+}
+
+/*  section one */
+
+.section_one .containar .image img {
+    width: 100%;
+}
+
+/*  section two  */
+.section_two .boxses .box .mahdi-box {
+    display: flex;
+    justify-content: center;
+}
+
+.section_two .boxses .box .mahdi-box .image img {
+    width: 50%;
+}
+
+.botton {
+    border: 40px solid #000 !important;
+}
+
+.botton:hover {
+    background: #000 !important;
+    color: #fff !important;
+}
+/*  section mahdi  */
+ .row{
+    margin-top: 30px;
+}
+
+.mahdi p {
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.mahdi h5 {
+    font-size: 1em;
+    color: #1db8f3;
+    line-height: 1;
+}
+.mahdi img {
+    transition: .4s;
+    height: 287px;
+}
+.mahdi a img:hover{
+    transform: scale(1.1);
+  
+}
+.section_two .image img{
+    padding-top: 50px;
+width: 100%;
+}
